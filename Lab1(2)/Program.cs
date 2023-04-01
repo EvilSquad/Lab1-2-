@@ -69,7 +69,7 @@ class Program {
                 count++;
             }
         }
-
+        Console.WriteLine(jsonDictionary);
         Console.WriteLine("Кількість словників, що мають в собі success==true: " + count);
         Console.ReadKey();
     }
